@@ -2,6 +2,7 @@
 
 #include <list>
 #include "Function.h"
+#include "Matrix.h"
 
 typedef double mT;
 
@@ -14,4 +15,5 @@ public:
   virtual Vec getGrad(const Vec& v) override;
   double getBarrierVal(const Vec& v);
   bool CrossedBarrier(const Vec& v);
+  Matrix getHess(const Vec& v);
 };

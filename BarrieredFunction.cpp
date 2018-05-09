@@ -66,3 +66,8 @@ bool BarrieredFunction::CrossedBarrier(const Vec & v)
   }
   return false;
 }
+
+Matrix BarrieredFunction::getHess(const Vec & v)
+{
+  return Matrix();
+}

@@ -5,7 +5,7 @@
 #include <string>
 using namespace std;
 
-ModFletcherReeves::ModFletcherReeves(const Vec & x0_, double gradEps_, double innerEps_, Function & f_) : f(f_)
+ModFletcherReeves::ModFletcherReeves(const Vec & x0_, double gradEps_, double innerEps_, BarrieredFunction & f_) : f(f_)
 {
   x0 = x0_;
   gradEps = gradEps_;
@@ -86,6 +86,11 @@ Vec ModFletcherReeves::Solve()
   cout << "Final Gradient norm: " << vGrad.Norm() << endl;
 #endif // LOG_GRAD_NORM
   return vXk;
+}
+
+void ModFletcherReeves::SetVX0(const Vec & v)
+{
+  x0 = v;
 }
 
 int ModFletcherReeves::GetIterCnt() const

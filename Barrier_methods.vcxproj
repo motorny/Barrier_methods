@@ -155,7 +155,6 @@
     <ClInclude Include="Fibonacce.h" />
     <ClInclude Include="Function.h" />
     <ClInclude Include="Grad.h" />
-    <ClInclude Include="GradientDescent.h" />
     <ClInclude Include="Matrix.h" />
     <ClInclude Include="ModFletcherReeves.h" />
     <ClInclude Include="PermanentStep.h" />
@@ -168,7 +167,6 @@
     <ClCompile Include="BarrierSolver.cpp" />
     <ClCompile Include="BarrierSolver_FR.cpp" />
     <ClCompile Include="Fibonacce.cpp" />
-    <ClCompile Include="GradientDescent.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="ModFletcherReeves.cpp" />

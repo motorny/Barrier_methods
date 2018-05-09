@@ -10,6 +10,7 @@
 #include "Constr2.h"
 #include "Constr3.h"
 
+#include "BarrierSolver_FR.h"
 using namespace std;
 
 
@@ -57,5 +58,16 @@ int main(void)
   cout << "Error: " << err.Norm() << endl;
   cout << endl << endl;
 
+  //cout << "Barrier method using Fletcher Reeves:" << endl;
+  //BarrierSolver_FR bsfr(x0, barrierEps, gradEps, innerEps, bf);
+  // res = bsfr.Solve();
+  //err = res - trueRes;
+  //cout << "--------------------------------------------" << endl;
+  //cout << "x: " << fixed << setprecision(10) << res[0] << endl;
+  //cout << "y: " << fixed << setprecision(10) << res[1] << endl;
+  //cout << "z: " << fixed << setprecision(10) << res[2] << endl;
+  //cout << "Steps count: " << bsfr.iterCnt << endl;
+  //cout << "Error: " << err.Norm() << endl;
+  //cout << endl << endl;
   return 0;
 }

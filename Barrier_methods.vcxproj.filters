@@ -24,9 +24,6 @@
     <ClInclude Include="Grad.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GradientDescent.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Matrix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -66,9 +63,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Fibonacce.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GradientDescent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp">
